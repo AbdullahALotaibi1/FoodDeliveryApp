@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="din-next-medium.ttf">
+            <string>DINNextLTArabic-Medium</string>
+        </array>
+        <array key="din-next-regular.ttf">
+            <string>DINNextLTArabic-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--هّمم-->
+        <scene sceneID="jYh-nO-IWc">
+            <objects>
+                <viewController storyboardIdentifier="LoginView" id="bwo-ng-HcB" customClass="LoginView" customModule="HMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VMb-c7-EsD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76l-9Q-gGS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFn-EF-CZD">
+                                        <rect key="frame" x="375" y="16" width="23" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="SrC-09-d4t"/>
+                                            <constraint firstAttribute="width" constant="23" id="W2O-sT-caC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="14"/>
+                                        <color key="tintColor" name="Primary Color"/>
+                                        <state key="normal" image="arrow-right-icon">
+                                            <color key="titleColor" name="Secondary Color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="dismissAction:" destination="bwo-ng-HcB" eventType="touchUpInside" id="7qF-k0-ngu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0u1-aK-L4Y"/>
+                                    <constraint firstItem="FFn-EF-CZD" firstAttribute="top" secondItem="76l-9Q-gGS" secondAttribute="top" constant="16" id="8oq-N7-f0o"/>
+                                    <constraint firstAttribute="height" constant="50" id="agn-Eh-P4l"/>
+                                    <constraint firstAttribute="trailing" secondItem="FFn-EF-CZD" secondAttribute="trailing" constant="16" id="wB7-pt-aGg"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ادخل رقم الجوال" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmb-eG-sna">
+                                <rect key="frame" x="16" y="110" width="382" height="19"/>
+                                <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="16"/>
+                                <color key="textColor" name="Secondary Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gqR-20-9mh">
+                                <rect key="frame" x="16" y="145" width="382" height="46"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Che-Nc-xYg" customClass="PhoneNumberTextField" customModule="PhoneNumberKit">
+                                        <rect key="frame" x="16" y="0.0" width="358" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" name="Secondary Color"/>
+                                        <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.01" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="PiV-vs-j75"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrQ-zg-67Y">
+                                <rect key="frame" x="16" y="199" width="382" height="0.0"/>
+                                <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="15"/>
+                                <color key="textColor" name="Danger Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhg-Mg-NYg" customClass="LoadyButton" customModule="Loady">
+                                <rect key="frame" x="16" y="800" width="382" height="46"/>
+                                <color key="backgroundColor" name="Primary Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="nA1-43-0la"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINNextLTArabic-Medium" family="DIN Next LT Arabic" pointSize="16"/>
+                                <state key="normal" title="تأكيد">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="loadingColor">
+                                        <color key="value" name="Primary Color"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginAction:" destination="bwo-ng-HcB" eventType="touchUpInside" id="mD6-MA-8Ow"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="بياناتك آمنة! لن يتم مشاركتها مع أي طرف آخر لأي سبب" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFs-jH-0r7">
+                                <rect key="frame" x="16" y="768.5" width="382" height="15.5"/>
+                                <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="13"/>
+                                <color key="textColor" red="0.43529411764705883" green="0.43529411764705883" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Yl-sR-KKT"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WrQ-zg-67Y" firstAttribute="top" secondItem="gqR-20-9mh" secondAttribute="bottom" constant="8" id="42R-Em-fem"/>
+                            <constraint firstItem="76l-9Q-gGS" firstAttribute="trailing" secondItem="5Yl-sR-KKT" secondAttribute="trailing" id="5WE-TF-aqr"/>
+                            <constraint firstItem="gqR-20-9mh" firstAttribute="leading" secondItem="5Yl-sR-KKT" secondAttribute="leading" constant="16" id="65y-K8-nBS"/>
+                            <constraint firstItem="76l-9Q-gGS" firstAttribute="leading" secondItem="5Yl-sR-KKT" secondAttribute="leading" id="6Bx-00-dQv"/>
+                            <constraint firstItem="76l-9Q-gGS" firstAttribute="leading" secondItem="5Yl-sR-KKT" secondAttribute="leading" id="84r-O8-VOZ"/>
+                            <constraint firstItem="5Yl-sR-KKT" firstAttribute="bottom" secondItem="yhg-Mg-NYg" secondAttribute="bottom" constant="16" id="9bm-bx-TsX"/>
+                            <constraint firstItem="5Yl-sR-KKT" firstAttribute="trailing" secondItem="yhg-Mg-NYg" secondAttribute="trailing" constant="16" id="9sE-gT-JZS"/>
+                            <constraint firstItem="5Yl-sR-KKT" firstAttribute="trailing" secondItem="76l-9Q-gGS" secondAttribute="trailing" id="Clb-d5-5fo"/>
+                            <constraint firstItem="WrQ-zg-67Y" firstAttribute="leading" secondItem="5Yl-sR-KKT" secondAttribute="leading" constant="16" id="LoM-ok-aXD"/>
+                            <constraint firstItem="5Yl-sR-KKT" firstAttribute="trailing" secondItem="WrQ-zg-67Y" secondAttribute="trailing" constant="16" id="LwZ-2u-A7T"/>
+                            <constraint firstItem="yhg-Mg-NYg" firstAttribute="leading" secondItem="5Yl-sR-KKT" secondAttribute="leading" constant="16" id="Olk-3F-AMa"/>
+                            <constraint firstItem="JFs-jH-0r7" firstAttribute="leading" secondItem="5Yl-sR-KKT" secondAttribute="leading" constant="16" id="Qfa-5C-Ao9"/>
+                            <constraint firstItem="5Yl-sR-KKT" firstAttribute="trailing" secondItem="JFs-jH-0r7" secondAttribute="trailing" constant="16" id="R9j-xI-0Hg"/>
+                            <constraint firstItem="hmb-eG-sna" firstAttribute="top" secondItem="76l-9Q-gGS" secondAttribute="bottom" constant="16" id="VCs-xt-AaC"/>
+                            <constraint firstItem="5Yl-sR-KKT" firstAttribute="trailing" secondItem="gqR-20-9mh" secondAttribute="trailing" constant="16" id="gtn-9V-ZaS"/>
+                            <constraint firstItem="5Yl-sR-KKT" firstAttribute="trailing" secondItem="hmb-eG-sna" secondAttribute="trailing" constant="16" id="gyi-I7-k7V"/>
+                            <constraint firstItem="yhg-Mg-NYg" firstAttribute="centerX" secondItem="VMb-c7-EsD" secondAttribute="centerX" id="lLp-7o-cpS"/>
+                            <constraint firstItem="76l-9Q-gGS" firstAttribute="top" secondItem="5Yl-sR-KKT" secondAttribute="top" id="nFn-qw-Ewn"/>
+                            <constraint firstItem="gqR-20-9mh" firstAttribute="top" secondItem="hmb-eG-sna" secondAttribute="bottom" constant="16" id="pdg-Ls-56R"/>
+                            <constraint firstItem="yhg-Mg-NYg" firstAttribute="top" secondItem="JFs-jH-0r7" secondAttribute="bottom" constant="16" id="vhc-YL-jLP"/>
+                            <constraint firstItem="hmb-eG-sna" firstAttribute="leading" secondItem="5Yl-sR-KKT" secondAttribute="leading" constant="16" id="xzd-dw-Noy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="هّمم" id="omv-01-glc"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="bottomConstraintButtonLogin" destination="9bm-bx-TsX" id="b6F-Wc-tVx"/>
+                        <outlet property="containerViewTextField" destination="gqR-20-9mh" id="Qfu-SW-HRS"/>
+                        <outlet property="errorMessageLabel" destination="WrQ-zg-67Y" id="lcd-h5-aOk"/>
+                        <outlet property="loginButton" destination="yhg-Mg-NYg" id="0a7-y4-8uf"/>
+                        <outlet property="phoneTextField" destination="Che-Nc-xYg" id="rc2-55-wKP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zXi-vu-UnG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="389.85507246376812" y="160.71428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow-right-icon" width="23" height="23"/>
+        <namedColor name="Danger Color">
+            <color red="0.94117647058823528" green="0.32156862745098036" blue="0.32156862745098036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary Color">
+            <color red="0.24699999392032623" green="0.75300002098083496" blue="0.37599998712539673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary Color">
+            <color red="0.086000002920627594" green="0.13699999451637268" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
