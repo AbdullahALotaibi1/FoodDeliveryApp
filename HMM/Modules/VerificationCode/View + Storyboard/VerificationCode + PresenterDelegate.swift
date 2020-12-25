@@ -68,6 +68,6 @@ extension VerificationCodeView: VerificationCodeViewPresenter {
     }
     
     func navigateToHomeScreen() {
-        
+           
     }
 }

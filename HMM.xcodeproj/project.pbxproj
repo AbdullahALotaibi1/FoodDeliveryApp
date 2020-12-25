@@ -20,8 +20,8 @@
 		B830B18A25913C3300829147 /* din-next-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B830B18625913C3300829147 /* din-next-bold.ttf */; };
 		B830B19025913E7400829147 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B830B18F25913E7400829147 /* UITextField.swift */; };
 		B830B19425913F9600829147 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B830B19325913F9500829147 /* UIColor + Extension.swift */; };
+		B87F10B92596A97500CD2F6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F10B82596A97500CD2F6D /* LoginView.swift */; };
 		B8A8CEBB25925D3C00BECDEF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A8CEBA25925D3C00BECDEF /* Login.storyboard */; };
-		B8A8CEBE25925D4D00BECDEF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A8CEBD25925D4D00BECDEF /* LoginView.swift */; };
 		B8A8CECF259274A500BECDEF /* UITapGestureRecognizer + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A8CECE259274A500BECDEF /* UITapGestureRecognizer + Extension.swift */; };
 		B8A8CED72592A62400BECDEF /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A8CED62592A62400BECDEF /* UIButton + Extension.swift */; };
 		B8DA2518259415C700CD5D37 /* VerificationCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DA2517259415C700CD5D37 /* VerificationCode.storyboard */; };
@@ -36,6 +36,8 @@
 		B8E4516D25965ECE0081E649 /* VerificationCodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4516C25965ECE0081E649 /* VerificationCodePresenter.swift */; };
 		B8E451712596663A0081E649 /* VerificationCode + PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E451702596663A0081E649 /* VerificationCode + PresenterDelegate.swift */; };
 		B8E4517525966B000081E649 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4517425966B000081E649 /* FirebaseAuth.swift */; };
+		B8E451B425969FC50081E649 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E451B325969FC50081E649 /* Home.storyboard */; };
+		B8E451B725969FD00081E649 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E451B625969FD00081E649 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,8 +57,8 @@
 		B830B18625913C3300829147 /* din-next-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "din-next-bold.ttf"; sourceTree = "<group>"; };
 		B830B18F25913E7400829147 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		B830B19325913F9500829147 /* UIColor + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		B87F10B82596A97500CD2F6D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B8A8CEBA25925D3C00BECDEF /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		B8A8CEBD25925D4D00BECDEF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../../../Documents/LoginView.swift; sourceTree = "<group>"; };
 		B8A8CECE259274A500BECDEF /* UITapGestureRecognizer + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer + Extension.swift"; sourceTree = "<group>"; };
 		B8A8CED62592A62400BECDEF /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
 		B8DA2517259415C700CD5D37 /* VerificationCode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerificationCode.storyboard; sourceTree = "<group>"; };
@@ -71,6 +73,8 @@
 		B8E4516C25965ECE0081E649 /* VerificationCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodePresenter.swift; sourceTree = "<group>"; };
 		B8E451702596663A0081E649 /* VerificationCode + PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerificationCode + PresenterDelegate.swift"; sourceTree = "<group>"; };
 		B8E4517425966B000081E649 /* FirebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
+		B8E451B325969FC50081E649 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B8E451B625969FD00081E649 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D40EDD2B16C80B1760C18026 /* Pods-HMM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMM.debug.xcconfig"; path = "Target Support Files/Pods-HMM/Pods-HMM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,9 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				B8E4517325966AE70081E649 /* FirebaseHelper */,
-				B8DA2515259415A800CD5D37 /* VerificationCode */,
-				B8A8CEB825925D1100BECDEF /* Login */,
-				B830B175259137BD00829147 /* Welcome */,
+				B8E451B125969F8F0081E649 /* Modules */,
 				B830B1712591374600829147 /* Core */,
 				B830B1702591373800829147 /* Resources */,
 				B830B18C25913E3F00829147 /* Helper */,
@@ -219,7 +221,7 @@
 		B8A8CEB925925D3200BECDEF /* View + Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				B8A8CEBD25925D4D00BECDEF /* LoginView.swift */,
+				B87F10B82596A97500CD2F6D /* LoginView.swift */,
 				B8E4516825963BB30081E649 /* LoginView + PresenterDelegate.swift */,
 				B8A8CEBA25925D3C00BECDEF /* Login.storyboard */,
 			);
@@ -267,6 +269,34 @@
 				B8E4517425966B000081E649 /* FirebaseAuth.swift */,
 			);
 			path = FirebaseHelper;
+			sourceTree = "<group>";
+		};
+		B8E451B025969F740081E649 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B8E451B225969FBA0081E649 /* View + Storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B8E451B125969F8F0081E649 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B8E451B025969F740081E649 /* Home */,
+				B8DA2515259415A800CD5D37 /* VerificationCode */,
+				B8A8CEB825925D1100BECDEF /* Login */,
+				B830B175259137BD00829147 /* Welcome */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B8E451B225969FBA0081E649 /* View + Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B8E451B625969FD00081E649 /* HomeView.swift */,
+				B8E451B325969FC50081E649 /* Home.storyboard */,
+			);
+			path = "View + Storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DA2518259415C700CD5D37 /* VerificationCode.storyboard in Resources */,
+				B8E451B425969FC50081E649 /* Home.storyboard in Resources */,
 				B8A8CEBB25925D3C00BECDEF /* Login.storyboard in Resources */,
 				B830B18825913C3300829147 /* din-next-light.ttf in Resources */,
 				B830B18A25913C3300829147 /* din-next-bold.ttf in Resources */,
@@ -403,11 +434,12 @@
 				B8E4516925963BB30081E649 /* LoginView + PresenterDelegate.swift in Sources */,
 				B830B15A259135DA00829147 /* AppDelegate.swift in Sources */,
 				B830B17B2591380E00829147 /* WelcomeView.swift in Sources */,
-				B8A8CEBE25925D4D00BECDEF /* LoginView.swift in Sources */,
 				B830B15C259135DA00829147 /* SceneDelegate.swift in Sources */,
 				B8A8CECF259274A500BECDEF /* UITapGestureRecognizer + Extension.swift in Sources */,
 				B830B19425913F9600829147 /* UIColor + Extension.swift in Sources */,
+				B87F10B92596A97500CD2F6D /* LoginView.swift in Sources */,
 				B8A8CED72592A62400BECDEF /* UIButton + Extension.swift in Sources */,
+				B8E451B725969FD00081E649 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
